@@ -10,7 +10,7 @@
     </v-flex>
     <v-flex grow>
       <transition name="custom" mode="out-in">
-        <router-view class="pa-5" style="height: 100%"/>
+        <router-view class="pa-5" style="height: 100%" />
       </transition>
     </v-flex>
   </v-layout>

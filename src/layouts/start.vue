@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex flex-column align-center justify-center white" style="height: 100%;">
-    <img src="@/assets/logo.jpg" style="height: 100vh;"/>
+  <div class="d-flex flex-column align-center justify-center white" style="height: 100vh;">
+    <img src="@/assets/logo.gif" style="max-width: 100vw; max-height: 70vh;"/>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
   created() {
     setTimeout(() => {
       this.$router.push('selection')
-    }, 5000)
+    }, 1500)
   },
 }
 </script>
