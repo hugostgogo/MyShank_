@@ -24,3 +24,4 @@ pnpm-debug.log*
 
 #Electron-builder output
 /dist_electron
+!/dist_electron/essai_1-0.1.0-armv7l.AppImage
