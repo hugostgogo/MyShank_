@@ -1,7 +1,7 @@
 <template>
     <v-dialog width="400">
         <template v-slot:activator="{ on, attrs }">
-             <v-flex xs6 tag="v-card" v-on="on" v-bind="attrs" content-class="" class="mr-3 pa-3 d-flex flex-column justify-center align-center" v-ripple="{ class: 'primary--text' }">
+             <v-flex xs6 tag="v-card" v-on="on" v-bind="attrs" content-class="" class="mr-1 pa-3 d-flex flex-column justify-center align-center" v-ripple="{ class: 'primary--text' }">
                 <v-icon size="75">mdi-palette</v-icon>
                 <v-card-title>COLOR</v-card-title>
             </v-flex>

@@ -1,18 +1,11 @@
 <template>
-  <v-flex>
-    <v-card class="pa-5 d-flex flex-column" style="height: 100%">
-
-      <span class="text-h5">Settings</span>
-
-      <v-divider class="my-3" color="white"/>
-
-      <v-flex class="d-flex" style="height: 100%; width: 100%" xs12>
+  <v-layout fill-height column>
+      <span class="text-h5 mb-3">Settings</span>
+      <v-flex class="d-flex justify-center" style="width: 100%" xs12>
         <color-picker />
         <delays />
       </v-flex>
-
-    </v-card>
-  </v-flex>
+  </v-layout>
 </template>
 <script>
 import delays from '@/components/settings/delays'

@@ -1,7 +1,7 @@
 <template>
   <v-dialog fullscreen v-model="dialog" transition="dialog-bottom-transition">
     <template v-slot:activator="{ on, attrs }">
-      <v-flex xs6 tag="v-card" v-on="on" v-bind="attrs" class="mr-3 pa-3 d-flex flex-column justify-center align-center" v-ripple="{ class: 'primary--text' }">
+      <v-flex xs6 tag="v-card" v-on="on" v-bind="attrs" class="ml-1 pa-3 d-flex flex-column justify-center align-center" v-ripple="{ class: 'primary--text' }">
   
           <v-icon size="75">mdi-av-timer</v-icon>  
           <v-card-title>FUNCTION DELAYS</v-card-title>
