@@ -66,6 +66,6 @@ export default {
 
 <style scoped>
  .custom {
-   transition: background-color .5s ease;
+   transition: background-color .5s ease, box-shadow .5s ease;
  }
 </style>

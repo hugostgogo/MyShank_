@@ -6,10 +6,8 @@
 
       <v-divider class="my-3" color="white"/>
 
-      <v-flex class="pa-3 d-flex align-center justify-space-around" grow>
-        
+      <v-flex class="d-flex" style="height: 100%; width: 100%" xs12>
         <color-picker />
-        <v-divider vertical class="mx-10" color="white"/>
         <delays />
       </v-flex>
 
