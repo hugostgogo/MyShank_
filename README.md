@@ -1,24 +1,17 @@
-# essai_1
+# MY SHANK
+## RACK
 
 ## Project setup
-```
+```sh
 npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-npm run serve
+```sh
+npm run electron:serve
 ```
 
 ### Compiles and minifies for production
+```sh
+npm run electron:build
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
