@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column align-center justify-center white" style="height: 100vh;">
-    <img src="@/assets/logo.gif" style="max-width: 100vw; max-height: 70vh;"/>
+    <img src="@/assets/logo.jpg" style="max-width: 100vw; max-height: 70vh;"/>
   </div>
 </template>
 
