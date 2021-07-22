@@ -104,6 +104,7 @@ export default new Vuex.Store({
     },
 
     setHeating(state, payload) {
+      console.log(payload)
       state.status.heating = payload
       window.ipcRenderer.send('setHeating', payload)
     },

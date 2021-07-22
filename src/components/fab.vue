@@ -1,16 +1,7 @@
 <template>
-<v-speed-dial
-    v-model="fab"
-    direction="left"
-    transition="scale-transition"
-  >
+<v-speed-dial v-model="fab" direction="left" transition="scale-transition">
     <template v-slot:activator>
-      <v-btn
-        v-model="fab"
-        color="primary"
-        dark
-        fab
-      >
+      <v-btn v-model="fab" color="primary" dark fab>
         <v-icon v-if="fab">
           mdi-close
         </v-icon>

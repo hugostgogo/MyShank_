@@ -1,7 +1,10 @@
 <template>
   <v-dialog fullscreen v-model="dialog">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn color="primary" v-on="on" v-bind="attrs">DELAYS</v-btn>
+      <v-btn color="primary" v-on="on" v-bind="attrs">
+        FUNCTION DELAYS
+        <v-icon right>mdi-av-timer</v-icon>  
+      </v-btn>
     </template>
     <v-card>
       <v-toolbar color="primary">
