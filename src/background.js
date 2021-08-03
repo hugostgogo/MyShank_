@@ -25,7 +25,7 @@ let win
 async function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 800,
+    width: 640,
     height: 480,
     fullscreen: true,
     webPreferences: {
