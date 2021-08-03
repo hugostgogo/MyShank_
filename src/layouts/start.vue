@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column align-center justify-center white" style="height: 100vh;">
+  <div class="d-flex flex-column align-center justify-center white" style="height: 100vh; width: 100vw;">
     <img src="@/assets/logo.jpg" style="max-width: 100vw; max-height: 70vh;"/>
   </div>
 </template>
